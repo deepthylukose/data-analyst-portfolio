@@ -23,7 +23,11 @@ for a simulated SaaS application.
 - Free users: 317
 
 ## Dashboard
-Tableau dashboard link: Coming soon
+## Tableau Public Dashboard
+
+Explore the interactive TaskFlow SaaS Usage & Retention Analytics dashboard:
+
+[View TaskFlow Dashboard on Tableau Public](https://public.tableau.com/app/profile/deepthy.lukose/viz/TaskFlowProductUsageSubscriptionAnalytics/Dashboard1)
 
 ## SQL Queries
 Please see the file taskflow_saas_analysis.sql for the queries.
