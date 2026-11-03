@@ -26,4 +26,4 @@ for a simulated SaaS application.
 Tableau dashboard link: Coming soon
 
 ## SQL Queries
-SQL files will be added to this project.
+Please see the file taskflow_saas_analysis.sql for the queries.
