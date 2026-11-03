@@ -14,3 +14,4 @@ I enjoy exploring datasets, identifying trends, analyzing business metrics, and 
 - **Data Analysis:** KPI analysis, trend analysis, customer and product usage analysis
 
 ### Portfolio Projects
+1. TaskFlow — Product Usage & Subscription Analytics
