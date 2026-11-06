@@ -1,15 +1,7 @@
--- Global Biscuit Manufacturing
--- Machine Inspection & Maintenance Analysis
--- BigQuery SQL Portfolio
--- Source: machine_Inspection_queries.docx
---
--- Note: The queries below preserve the analysis and table references from
--- the supplied document, with formatting and minor syntax cleanup.
--- Review the notes after the queries before publishing.
+-- Global Biscuit Manufacturing Machine Inspection & Maintenance Analysis
 
 -- =========================================================
--- BUSINESS QUESTION 1
--- Which branches have the highest number of machines?
+-- BUSINESS QUESTION 1: Which branches have the highest number of machines?
 -- =========================================================
 SELECT
     b.branch_name,
@@ -22,8 +14,7 @@ ORDER BY total_machines DESC;
 
 
 -- =========================================================
--- BUSINESS QUESTION 2
--- Which machine types are used most frequently?
+-- BUSINESS QUESTION 2 : Which machine types are used most frequently?
 -- =========================================================
 SELECT
     machine_type,
@@ -304,24 +295,3 @@ JOIN `mycoursera-508117.Machine_Inspection_Data.shifts` AS s
 GROUP BY s.shift_name
 ORDER BY total_employees DESC;
 
--- REVIEW NOTES BEFORE PUBLISHING
---
--- 1. Questions 11 and 20 are duplicates in business intent:
---    both identify machines with the highest total maintenance cost.
---    Consider replacing one with a different question if you want 22
---    distinct business questions.
---
--- 2. Question 5 uses the alias "inspectioned_machines_count". The count
---    is inspection records grouped by condition, not necessarily distinct
---    machines. Consider renaming it to total_inspections for clarity.
---
--- 3. Question 22 counts distinct employees who performed inspections
---    in each shift. It does not establish the number of employees assigned
---    to each shift unless the data model defines shift assignment that way.
---
--- 4. Question 13's saved insight values should be checked against the
---    latest BigQuery output before publishing. The written document's
---    Montreal value may not match later results.
---
--- 5. The source document uses the term "inspectioned_machines_count";
---    this cleaned SQL keeps the underlying counting logic unchanged.
