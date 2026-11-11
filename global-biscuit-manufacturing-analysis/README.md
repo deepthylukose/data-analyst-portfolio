@@ -95,7 +95,7 @@ Planned dashboard elements:
 Dashboard
 Tableau Public Dashboard
 
-Explore the interactive Inspection nalytics dashboard:
+Explore the interactive Inspection analytics dashboard:
 
 https://public.tableau.com/app/profile/deepthy.lukose/viz/GLOBALBISCUITMANUFACTURING/Dashboard1InspectionAnalysis
 
