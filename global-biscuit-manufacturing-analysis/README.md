@@ -78,22 +78,19 @@ A total of **22 business questions** were explored using SQL, covering:
 - Chicago also recorded the highest total downtime by branch (**210.49 hours**).
 - Each branch had 80 maintenance records.
 - The employee table contains 225 employees, with 25 assigned to each branch.
-- The shift analysis found 153 distinct employees with inspection records in each shift.
-
-*These insights reflect the query results recorded during the analysis. Re-run the queries against the current BigQuery tables before using the figures in a final presentation or dashboard.*
+- The shift analysis found 153 distinct employees with inspection records in each shift
 
 ## Dashboard Plan
 
-The next stage is to build an interactive Tableau dashboard.
-
 Planned dashboard elements:
 
-- KPI cards for key operational measures.
-- Branch-level comparison of maintenance cost and downtime.
+- KPI cards and interactive visualizations
+- Branch-level comparison of Inspection analysis
 - Machine-level analysis of inspection results and downtime.
-- Maintenance type analysis.
-- Employee and shift analysis.
-- Date and relevant category filters, where supported by the underlying data.
+- Maintenance type analysis
+- Employee and shift analysis
+- Interactive date-range filter
+
 
 ## Project Files
 
