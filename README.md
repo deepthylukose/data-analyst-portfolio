@@ -15,3 +15,4 @@ I enjoy exploring datasets, identifying trends, analyzing business metrics, and 
 
 ### Portfolio Projects
 1. TaskFlow — Product Usage & Subscription Analytics
+2. Global Biscuit Manufacturing – Machine Inspection Analysis
