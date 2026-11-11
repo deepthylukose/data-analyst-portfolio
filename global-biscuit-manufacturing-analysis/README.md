@@ -1,4 +1,4 @@
-# Global Biscuit Manufacturing – Machine Inspection & Maintenance Analysis
+# Global Biscuit Manufacturing – Machine Inspection Analysis
 
 ## Project Overview
 
@@ -24,16 +24,18 @@ The goal is to use SQL in Google BigQuery to identify operational issues and tur
 
 ## Dataset
 
-The project uses a simulated manufacturing dataset organized into related tables in the BigQuery dataset `Machine_Inspection_Data`.
+- 9 branches
+- 180 machines
+- 32,400 machine inspection records
 
 Tables used:
 
-- `branches`
-- `machines`
-- `shifts`
-- `employees`
-- `machine_inspections`
-- `maintenance_records`
+- branches
+- machines
+- shifts
+- employees
+- machine_inspections
+- maintenance_records
 
 ## SQL Analysis
 
