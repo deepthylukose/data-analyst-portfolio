@@ -92,9 +92,14 @@ Planned dashboard elements:
 - Interactive date-range filter
 
 
-## Project Files
+Dashboard
+Tableau Public Dashboard
 
-- `global_biscuit_manufacturing_analysis.sql` – SQL queries for the 22 business questions.
-- Tableau dashboard – to be added after dashboard development and publication.
+Explore the interactive Inspection nalytics dashboard:
+
+https://public.tableau.com/app/profile/deepthy.lukose/viz/GLOBALBISCUITMANUFACTURING/Dashboard1InspectionAnalysis
+
+SQL Queries
+Please see the file  for the queries.
 
 
