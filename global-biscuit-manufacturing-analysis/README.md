@@ -100,6 +100,7 @@ Explore the interactive Inspection nalytics dashboard:
 https://public.tableau.com/app/profile/deepthy.lukose/viz/GLOBALBISCUITMANUFACTURING/Dashboard1InspectionAnalysis
 
 SQL Queries
-Please see the file  for the queries.
+
+Please see the file global_biscuit_manufacturing_analysis.sql for the queries.
 
 
